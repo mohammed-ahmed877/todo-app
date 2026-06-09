@@ -1,28 +1,30 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo app</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <div id="container">
+
     <h1>welcome to my todo app</h1>
-
-
-    <div class="container">
-
-        <input type="text" id="taskInput" placeholder="Enter you task">
-        <br>
-        <br>
-        <button id="btn" onclick="addTask()">Add task</button>
-
+    
+    <input type="text" id="input" placeholder="Enter the todo">
+    
+    <button onclick="addtask()" id="btn" >click me </button>
+    
+    <br/>
+    <br/>
+    
+    <ul id="list">
         
-            <ul id="list">
-                
-            </ul>
-      
-
-    </div>
+       </ul>
+</div>
+   
+  
  <script src="script.js"></script>
 </body>
 </html>
